@@ -1,0 +1,108 @@
+/* To center-align the entire content */
+.reservation-page {
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 600px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Center-aligning the content */
+}
+
+/* Header styles */
+h2 {
+  color: #27ae60;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #34495e;
+  margin-bottom: 20px;
+}
+
+/* Forms */
+.form-group {
+  margin-bottom: 15px;
+  text-align: left; /* Left-aligning forms */
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Confirm reservation button */
+.submit-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #219150;
+}
+
+/* Home button */
+.home-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  transition: background-color 0.3s;
+}
+
+.home-button:hover {
+  background-color: #2980b9;
+}
+
+/* Reservations table */
+.reservation-table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+.reservation-table th,
+.reservation-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center; /* Center-aligning text in the table */
+}
+
+.reservation-table th {
+  background-color: #27ae60;
+  color: white;
+}
+
+.reservation-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.footer {
+  margin-top: 30px;
+  padding: 10px;
+  background-color: #f1f1f1;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #555;
+  border-top: 1px solid #ccc;
+}
