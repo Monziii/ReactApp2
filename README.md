@@ -56,4 +56,4 @@ Page navigation is implemented using react-router-dom. Ensure this library is in
 
 Author
 
-Developed by Mehdi Labbafi
+Developed by Mina Bekhit
